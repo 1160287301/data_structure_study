@@ -6,8 +6,7 @@
 #include <cstdlib>
 #include <cstring>
 
-typedef int zhangshan; //为 int 再重新取一个名字,zhanghshan 等价于 int
-typedef int * pint;
+typedef int * pint, zhangshan; //为 int 再重新取一个名字,zhanghshan 等价于 int, int * 等价于 pint
 typedef struct Student {
     int sid;
     char name[20];
